@@ -8,7 +8,6 @@ const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Home', page: '/' },
   { label: 'Blog', page: '/blog' },
   { label: 'Contact', page: '/contact' },
-  { label: 'Source Code', link: 'https://github.com/ijjk/notion-blog' },
 ]
 
 const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
@@ -19,14 +18,15 @@ export default ({ titlePre = '' }) => {
   return (
     <header className={styles.header}>
       <Head>
-        <title>{titlePre ? `${titlePre} |` : ''} My Notion Blog</title>
+        <title>
+          {titlePre ? `${titlePre} |` : ''}Ryoichi Table Tennis Blog
+        </title>
         <meta
           name="description"
-          content="An example Next.js site using Notion for the blog"
+          content="日々の卓球の練習・試合および研究を記録として垂れ流すブログです。"
         />
-        <meta name="og:title" content="My Notion Blog" />
+        <meta name="og:title" content="Ryoichi Table Tennis Blog" />
         <meta property="og:image" content={ogImageUrl} />
-        <meta name="twitter:site" content="@_ijjk" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>

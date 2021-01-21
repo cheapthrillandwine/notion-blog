@@ -4,21 +4,6 @@
     <subtitle>Blog</subtitle>
     <link href="/atom" rel="self" type="application/rss+xml"/>
     <link href="/" />
-    <updated>2021-01-14T06:06:21.831Z</updated>
+    <updated>2021-01-21T15:32:37.828Z</updated>
     <id>My Notion Blog</id>
-    <entry>
-      <id>/blog/卓球記録</id>
-      <title>雑多な卓球記録を書き始めます</title>
-      <link href="/blog/卓球記録"/>
-      <updated>2020-12-31T15:00:00.150Z</updated>
-      <content type="xhtml">
-        <div xmlns="http://www.w3.org/1999/xhtml">
-          
-          <p class="more">
-            <a href="/blog/卓球記録">Read more</a>
-          </p>
-        </div>
-      </content>
-      
-    </entry>
   </feed>
